@@ -36,3 +36,141 @@
     transform: rotate(360deg);
   }
 }
+
+.tweet_wrapper{
+  border: 1px solid rgb(47, 51, 54);
+  padding: 10px;
+  /* border-radius: 10px; */
+  margin-bottom: 10px; 
+  box-sizing: border-box;
+}
+
+.tweet_content_wrapper{
+  display: flex;
+  margin-top: -10px;
+}
+
+.avatar_content{
+  flex-grow:0;
+  flex-basis: 50px;
+  margin-right: 12px;
+}
+
+.text_content{
+  flex-grow:1;
+  flex-basis: 0px;
+}
+
+.circular_image{
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Modified*/
+  /*overflow:hidden;*/
+}
+
+.display_username{
+  color: White;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.display_username:hover{
+  color: White;
+  font-family: inherit;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.username{
+  color: rgb(110, 118, 125);
+  font-family: inherit;
+  margin-left: 5px;
+}
+
+.date{
+  color: rgb(110, 118, 125);
+  font-family: inherit;
+  margin-left: 5px;
+}
+
+.date:hover{
+  color: rgb(110, 118, 125);
+  font-family: inherit;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
+.icon_wrapper{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  margin-right: 20%;
+}
+
+.widthsvg{
+  width: 24px;
+  height: 24px;
+}
+
+.r-1hdv0qi {
+  width: 1.25em;
+}
+.r-lrvibr {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.r-1plcrui {
+  vertical-align: text-bottom;
+}
+.r-bnwqim {
+  position: relative;
+}
+.r-dnmrzs {
+  max-width: 100%;
+}
+.r-1xvli5t {
+  height: 1.25em;
+}
+.r-yyyyoo1 {
+  fill: rgb(110, 118, 125);
+}
+
+.r-yyyyoo1:hover{
+  fill: rgb(0, 42, 179);
+  transition-duration: 1s;
+}
+
+.r-yyyyoo2 {
+  fill: rgb(110, 118, 125);    
+}
+
+.r-yyyyoo2:hover {
+  fill: rgb(7, 173, 29);
+  transition-duration: 1s;
+}
+
+.r-yyyyoo3 {
+  fill: rgb(110, 118, 125);
+}
+
+.r-yyyyoo3:hover {
+  fill: rgb(204, 3, 3);
+  transition-duration: 1s;
+}
+
+.r-yyyyoo4 {
+  fill: rgb(110, 118, 125);
+}
+
+.r-yyyyoo4:hover{
+  fill: rgb(0, 42, 179);
+  transition-duration: 1s;
+
+}
+
+.r-4qtqp9 {
+  display: inline-block;
+}
